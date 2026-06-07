@@ -32,15 +32,14 @@ Manual match indexing and highlight compilation in sports networks are incredibl
 
 ---
 
-## 📂 Repository Structure
+## 🚀 Instructions for Running the Code
 
-```text
-├── README.md                                  # Project technical documentation
-├── soccer_event_classification_pipeline.ipynb # Core runnable Kaggle / Jupyter Notebook
-├── requirements.txt                           # Pinpointed package dependencies
-└── expected_exports/                          # Visual assets zipped by the export utility
-    ├── preprocessing_evolution_sample_1.png   # Step-by-step contrast and padding transformations
-    ├── data_augmentation_distribution_fixed.png # Data amplification chart 
-    ├── custom_cnn_confusion_matrix.png        # Class-by-class error checking mapping
-    ├── final_model_comparison_matrix.png      # Comparative plot across key metrics
-    └── gradcam_xai_sample_1.png               # XAI heatmaps showing attention regions
+1. Navigate to the dataset webpage on Kaggle: Soccer Event Classification Image Data.
+
+2. Click "New Notebook" in the upper-right corner.
+
+3. In your active notebook's right-hand settings panel, change the Accelerator option to "GPU T4 x2" (Dual T4 setup).
+
+4. Copy and paste the script configurations sequentially or import the .ipynb file.
+
+5. Click "Run All". The notebook will download, evaluate, train, validate, and write your figures autonomously.
